@@ -1,7 +1,10 @@
 import streamlit as st
-import tensorflow as tf
-import numpy as np
 from PIL import Image
+import numpy as np
+import tf_keras as tf  # On triche proprement : Keras remplace TensorFlow !import streamlit as st
+from PIL import Image
+import numpy as np
+import tf_keras as tf  # On triche proprement : Keras remplace TensorFlow !
 
 # 1. Configuration de la page web
 st.set_page_config(page_title="Détecteur de Fleurs IA", page_icon="🌸")
