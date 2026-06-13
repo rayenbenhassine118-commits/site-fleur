@@ -1,4 +1,4 @@
 streamlit
-tensorflow-cpu
-numpy
-Pillow
+tf-keras
+pillow
+numpy<2.0.0
